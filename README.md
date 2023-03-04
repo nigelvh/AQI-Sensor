@@ -5,3 +5,6 @@ Custom hardware for measuring the Air Quality Index along with environmental Tem
 
 ## Hardware
 The PCB designs for the device, as well as a STL for the 3D printed portion of the enclosure.
+
+## Firmware
+The firmware I run on my devices, written for MicroPython.
