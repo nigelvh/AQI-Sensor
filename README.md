@@ -1,5 +1,5 @@
 # AQI Sensor
-Custom hardware for measuring the Air Quality Index along with environmental Temperature, Pressure, and Humidity.
+Custom hardware for measuring the Air Quality Index along with environmental Temperature, Pressure, and Humidity. [Read more about the project here!](https://digitalnigel.com/wordpress/?p=3436)
 
 <img src="https://github.com/nigelvh/AQI-Sensor/raw/main/device.jpg">
 
