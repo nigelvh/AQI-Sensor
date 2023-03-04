@@ -1,0 +1,23 @@
+PMS7003 Connector
+	https://www.digikey.com/en/products/detail/amphenol-cs-fci/20021321-00010C1LF/4243101
+
+BME280 Temperature/Pressure/Humidity
+	https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306
+
+ESP32
+	https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125
+
+FT231XS
+	https://www.digikey.com/en/products/detail/ftdi-future-technology-devices-international-ltd/FT231XS-U/3749471
+	
+RGB LED
+	https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP615-RGB-3053/12318395
+
+Reset Circuit Mosfets
+	https://www.digikey.com/en/products/detail/diodes-incorporated/DMN61D9UWQ-13/7666847
+
+3V3 Regulator
+	https://www.digikey.com/en/products/detail/richtek-usa-inc/RT9080-33GJ5/6161634
+
+USB Connector
+	https://www.digikey.com/en/products/detail/amphenol-cs-fci/10118192-0001LF/2785387
