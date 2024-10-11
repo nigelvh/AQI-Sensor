@@ -71,6 +71,8 @@ class PMS7003:
 			temp_start_1 = self._read_byte()
 			if temp_start_1 is False:
 				return False
+			if temp_start_1 is None:
+				return False
 			if ord(temp_start_1) == self.PMS_START_BYTE_1:
 				break
 			loops = loops + 1
@@ -81,12 +83,16 @@ class PMS7003:
 		temp_start_2 = self._read_byte()
 		if temp_start_2 is False:
 			return False
+		if temp_start_2 is None:
+			return False
 		if ord(temp_start_2) != self.PMS_START_BYTE_2:
 			return False
 	
 		# We've gotten both start bytes, grab the next 30 bytes of data
 		frame_data = self._read_num_bytes(30)
 		if frame_data is False:
+			return False
+		if frame_data is None:
 			return False
 		
 		# Unpack the binary data
